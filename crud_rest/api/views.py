@@ -37,9 +37,8 @@ def create_stu(request):
 
         try:
             serializer.save()
-            st_id = serializer.data.get('id')
-            logging.getLogger("INFO").info(
-                f"Succefully created Student ID: {st_id}")
+            st_id = serializer.data.get('stu_uid')
+            logging.getLogger("INFO").info(f"Succefully created Student ID: {st_id}")
             return Response({'msg': 'Succefully created Student'}, status=status.HTTP_201_CREATED)
         except rest_exceptions.ValidationError:
             return Response({'msg': 'Please check given inputs'}, status=status.HTTP_400_BAD_REQUEST)
@@ -64,9 +63,8 @@ def update_stu(request, stu_uid):
 
         try:
             serializer.save()
-            st_id = serializer.data.get('id')
-            logging.getLogger("INFO").info(
-                f"Succefully Updated Student ID: {st_id}")
+            st_id = serializer.data.get('stu_uid')
+            logging.getLogger("INFO").info(f"Succefully Updated Student ID: {st_id}")
             return Response({'msg': 'Succefully updated Student'}, status=status.HTTP_201_CREATED)
         except rest_exceptions.ValidationError:
             return Response({'msg': 'Please check given inputs'}, status=status.HTTP_400_BAD_REQUEST)
@@ -76,7 +74,6 @@ def update_stu(request, stu_uid):
 
 @api_view(['DELETE'])
 def delete_stu(request, stu_uid):
-    print(stu_uid)
     try:
         stu_obj = get_object_or_404(Student, stu_uid=stu_uid)
         st_id = stu_obj.id
