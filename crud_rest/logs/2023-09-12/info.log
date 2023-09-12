@@ -1,0 +1,29 @@
+2023-09-12 16:59:16,249 - INFO - Reqested Student Data
+2023-09-12 17:05:36,639 - INFO - Succefully created Student
+2023-09-12 17:08:20,031 - INFO - Succefully created Student
+2023-09-12 17:08:42,458 - INFO - Succefully created Student
+2023-09-12 17:09:05,815 - INFO - Succefully created Student ID: <built-in function id>
+2023-09-12 17:10:08,846 - INFO - Succefully created Student ID: 8
+2023-09-12 17:14:52,992 - INFO - Request to fetch Student Data
+2023-09-12 17:14:59,426 - INFO - Succefully Deleted Student ID: 8
+2023-09-12 17:21:16,294 - INFO - Request to fetch Student Data
+2023-09-12 17:26:14,793 - INFO - Request to fetch Student Data
+2023-09-12 17:29:08,116 - INFO - Request to fetch Student Data
+2023-09-12 18:30:11,860 - INFO - Request to fetch Student Data
+2023-09-12 18:30:28,834 - INFO - Succefully created Student ID: 8
+2023-09-12 18:30:32,467 - INFO - Request to fetch Student Data
+2023-09-12 18:30:40,141 - INFO - Succefully created Student ID: 9
+2023-09-12 18:30:42,165 - INFO - Request to fetch Student Data
+2023-09-12 18:31:39,735 - INFO - Request to fetch Student Data
+2023-09-12 18:31:43,269 - INFO - Succefully created Student ID: 10
+2023-09-12 18:31:46,069 - INFO - Request to fetch Student Data
+2023-09-12 18:31:58,764 - INFO - Succefully created Student ID: 11
+2023-09-12 18:31:59,557 - INFO - Succefully created Student ID: 12
+2023-09-12 18:32:00,436 - INFO - Succefully created Student ID: 13
+2023-09-12 18:32:01,027 - INFO - Succefully created Student ID: 14
+2023-09-12 18:32:01,584 - INFO - Succefully created Student ID: 15
+2023-09-12 18:32:03,087 - INFO - Request to fetch Student Data
+2023-09-12 18:43:21,068 - INFO - Request to fetch Student Data
+2023-09-12 18:43:59,478 - INFO - Succefully Updated Student ID: 15
+2023-09-12 18:44:09,731 - INFO - Succefully Updated Student ID: 15
+2023-09-12 18:44:11,949 - INFO - Request to fetch Student Data
